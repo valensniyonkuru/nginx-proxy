@@ -23,19 +23,14 @@ docker-lab/
 ├── Dockerfile          # Docker build instructions
 ├── .dockerignore       # Files to exclude from Docker image
 ├── image/              # Screenshots and documentation images
-│   ├── docker-build.png
-│   ├── docker-run.png
-│   └── flask-app-browser.png
+│   ├── image.png
+│   
+│ 
 └── README.md           # This file
 ```
+)
 
-## 🛠️ Prerequisites
-
-- Docker Desktop or Docker Engine installed
-- Basic knowledge of command line
-- Git (for cloning the repository)
-
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -60,9 +55,6 @@ docker build -t flask-app .
 docker run -d -p 5000:5000 flask-app
 ```
 
-**Container Running:**
-
-![Docker Run](image/docker-run.png)
 
 ### 4. Access the Application
 
@@ -165,14 +157,7 @@ docker run -d -p 8080:5000 flask-app
 docker logs <container-id>
 ```
 
-## 📚 What You'll Learn
 
-- ✅ Creating a Dockerfile
-- ✅ Building Docker images
-- ✅ Running containers with port mapping
-- ✅ Using `.dockerignore` for optimization
-- ✅ Managing containers and images
-- ✅ Best practices for Python containerization
 
 ## 🎓 Key Concepts
 
@@ -182,24 +167,7 @@ docker logs <container-id>
 - **Detached Mode**: `-d` flag runs container in background
 - **Port Mapping**: `-p 5000:5000` maps host port to container port
 
-## 🌟 Next Steps
 
-- Add a `requirements.txt` for better dependency management
-- Implement multi-stage builds for even smaller images
-- Add environment variables for configuration
-- Set up Docker Compose for multi-container applications
-- Push image to Docker Hub
 
-## 👤 Author
 
-**Valens Niyonkuru**
 
-- GitHub: [@valensniyonkuru](https://github.com/valensniyonkuru)
-
-## 📄 License
-
-This project is open source and available for educational purposes.
-
----
-
-**⭐ If you found this helpful, please give it a star!**
