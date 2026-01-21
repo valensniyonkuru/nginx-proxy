@@ -66,7 +66,7 @@ http://localhost:5000
 
 **Application Output:**
 
-![Flask App](image/flask-app-browser.png)
+![Flask App](image/image.png)
 
 ## 📝 File Descriptions
 
@@ -166,6 +166,7 @@ docker logs <container-id>
 - **Port Exposure**: `5000` - Application port
 - **Detached Mode**: `-d` flag runs container in background
 - **Port Mapping**: `-p 5000:5000` maps host port to container port
+
 
 
 
