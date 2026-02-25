@@ -60,7 +60,8 @@ docker run -d -p 8080:80 nginx-proxy
 
 ![Flask App](image/image.png)
 
-## ✅ Verification
+
+
 
 
 
